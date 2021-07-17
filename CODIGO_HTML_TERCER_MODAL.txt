@@ -1,0 +1,24 @@
+'<div class="modal-body">'+
+              '<div class="buttons_modal">' +
+                '<button class="btn_facebook">Ingresa con Facebook</button>'+
+                '<button class="btn_google">Ingresa con Google</button>'+
+                '<button class="btn_email" id="btn_email">Ingresa con correo electrónico</button>'+
+              '</div>'+
+              '<form class="form_login" id="form_login" style="display: none;">'+
+                '<div class="container_form">'+
+                  '<span class="text-center">O ingresa tu correo y tu contraseña <br></span>'+
+                  '<div class="container_inputs_login">'+
+                    '<div class="mb-3">'+
+                      '<input type="text" placeholder="Ingrese e-mail" class="form-control text-left" id="recipient-name">'+
+                    '</div>'+
+                    '<div class="mb-3">'+
+                      '<input type="password" placeholder="Ingrese contraseña" class="form-control" id="message-text">'+
+                    '</div>'+
+                    '<button type="submit" class="btn_email_ingreso">Ingresa a tu cuenta</button>'+
+                  '</div>'+
+                '</div>'+
+              '</form>'+
+              '<div class="link_form_registro">'+
+                '<p>¿Aún no tienes cuenta? <b class="link_registrate" id="link_modal_registro" data-bs-toggle="modal" data-bs-target="#MuestraModalRegistro">Regístrate</b></p>'+
+              '</div>'+
+            '</div>',	
