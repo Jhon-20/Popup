@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6d3fd;
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.container .boton{
+    border: none;
+    padding: 1.5em;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1.5rem;
+}
+.container .boton.primer_modal{
+    background:linear-gradient(#6B11B4,#0F4FAF);
+}
+.container .boton.segundo_modal{
+    background:linear-gradient(#f7ea36,#c5850d);
+}
+.container .boton.tercer_modal{
+    background:linear-gradient(#36f7d7,#0d7bc5);
+}
+.titulo, .parrafo{
+    color: #ffffff !important;
+}
+.input{
+    background: #ffffff !important;
+}
+.boton_confirmacion{
+    background: #FF5065 !important;
+}
+.mi_fotter{
+    border: none !important;
+    color: #ffffff !important;
+}
+.content{
+    justify-content: center !important;
+}
+
+.modal-body{
+    width: 80%;
+    margin-left: 10%;
+}
+.modal-body .buttons_modal{
+    display: flex;
+    flex-direction: column;
+}
+.btn_facebook,.btn_google,.btn_email{
+    margin-bottom: 1rem;
+    padding: 1em;
+    border-radius: 30px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn_facebook{
+    background-color: #006ab1;
+}
+.btn_google{
+    color: #000;
+    background-color: #E7E7E7;
+}
+.btn_email{
+    border: 1px solid #06A106;
+    color: #06A106;
+    background-color: #ffffff;
+}
